@@ -1,0 +1,15 @@
+.movies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.movieImage {
+  margin: auto;
+  display: block;
+  width: 100%;
+}
+
+.moviesCarousel {
+  margin-bottom: 50px;
+}

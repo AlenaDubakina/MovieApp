@@ -1,0 +1,48 @@
+.cards {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  padding: 5px;
+  margin: 5px 0;
+  background-color: #112d49;
+  color: white;
+  border-radius: 10px;
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
+  cursor: pointer;
+}
+
+.cards:hover {
+  background-color: lightgrey;
+  color: black;
+}
+
+@media (max-width: 550px) {
+  .cards {
+    width: 46%;
+  }
+}
+
+.card {
+  border-radius: 10px;
+}
+
+.cardTitle {
+  width: 100%;
+  text-align: center;
+  font-size: 17px;
+  padding: 8px 0;
+}
+
+.cardSubTitle {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 3px;
+  padding: 0 2px;
+  padding-bottom: 3px;
+}
+
+.cardsLink {
+  color: white;
+  text-decoration: none;
+}

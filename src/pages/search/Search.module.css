@@ -1,0 +1,25 @@
+.search {
+  display: flex;
+  margin: 15px 0;
+  padding: 10px 15px;
+  justify-content: center;
+}
+
+.searchInput {
+  width: 70%;
+  color: rgb(80, 79, 79);
+  border: 2px solid #112d49;
+  border-radius: 2px;
+}
+.conteiner {
+  display: flex;
+  margin: 15px 0;
+  padding: 10px 15px;
+  justify-content: center;
+}
+
+.resultSearch {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
